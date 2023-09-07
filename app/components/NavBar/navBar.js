@@ -67,6 +67,7 @@ export default function Navbar() {
         </div>
         <div className="flex lg:hidden">
           <ThemeButton />
+          <ShareButton />
         </div>
 
         <Popover.Group className="hidden lg:flex lg:gap-x-12">

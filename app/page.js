@@ -130,7 +130,7 @@ export default function Home() {
         onCategoryChange={handleCategoryChange}
       /> */}
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-10 ">
         {filteredCards.map((data, index) => (
           <Card key={index} {...data} />
         ))}

@@ -1,6 +1,7 @@
 import "../app/styles/globals.css";
 
 import Navbar from "../app/components/NavBar/navBar";
+import Footer from "../app/components/Footer";
 
 import Providers from "./providers";
 
@@ -14,11 +15,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body suppressHydrationWarning={true}>
         <Providers>
-  
+
 
           <Navbar />
           <main>{children}</main>
           {/* <Footer /> */}
+
         </Providers>
       </body>
     </html>
