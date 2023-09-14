@@ -10,11 +10,17 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "appwrite": "^12.0.0",
     "autoprefixer": "10.4.15",
+    "axios": "^1.5.0",
+    "cheerio": "^1.0.0-rc.12",
     "clipboard-copy": "^4.0.1",
+    "encoding": "^0.1.13",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
+    "firebase": "^10.3.1",
     "next": "13.4.19",
+    "next-api-routes": "^1.0.0",
     "next-themes": "^0.2.1",
     "postcss": "8.4.29",
     "puppeteer": "^21.1.1",
@@ -25,6 +31,8 @@
   },
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.6",
-    "@tailwindcss/typography": "^0.5.10"
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/react": "18.2.21",
+    "typescript": "5.2.2"
   }
 }

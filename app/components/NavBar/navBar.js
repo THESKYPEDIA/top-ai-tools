@@ -22,9 +22,9 @@ export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white dark:bg-gray-900">
+    <header className="sticky top-0 bg-white dark:bg-gray-900">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className=" mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 "
         aria-label="Global"
       >
         <div className="flex lg:hidden">
@@ -97,10 +97,10 @@ export default function Navbar() {
           <ThemeButton />
           <ShareButton />
           <Link
-            href="/login"
-            className="  cursor-pointer flex lg:shrink-0 justify-center items-center gap-2 font-semibold transition-all duration-300 rounded-full focus-visible:ring focus-visible:ring-red-800 focus-visible:ring-opacity-10 ring-red-800 focus:outline-none select-none disabled:cursor-not-allowed disabled:opacity-80 text-gray-50 dark:text-gray-900 bg-indigo-600 dark:bg-blue-300 hover:bg-blue-500 dark:hover:bg-blue-400 lg:px-7 px-6 lg:py-3 py-2 lg:text-md text-sm group relative w-1/4"
+            href="/submit"
+            className="cursor-pointer flex lg:shrink-0 justify-center items-center gap-2 font-semibold transition-all duration-300 rounded-full focus-visible:ring focus-visible:ring-red-800 focus-visible:ring-opacity-10 ring-red-800 focus:outline-none select-none disabled:cursor-not-allowed disabled:opacity-80 text-gray-50 dark:text-gray-900 bg-indigo-600 dark:bg-blue-300 hover:bg-blue-500 dark:hover:bg-blue-400 lg:px-7 px-6 lg:py-3 py-2 lg:text-md text-sm group relative w-1/3"
           >
-            Login
+            Submit Tool
           </Link>
         </div>
       </nav>
@@ -199,11 +199,11 @@ export default function Navbar() {
               </div>
               <div className="py-6">
                 <Link
-                  href="/login"
+                  href="/submit"
                   onClick={() => setMobileMenuOpen(false)}
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-700"
                 >
-                  Log in
+                  Submit Tool
                 </Link>
               </div>
             </div>
